@@ -18,6 +18,7 @@ lib/
 lib64/
 parts/
 sdist/
+share/
 var/
 wheels/
 share/python-wheels/
@@ -192,3 +193,10 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# venv related
+bin/
+include/
+pyvenv.cfg
+
+.idea
